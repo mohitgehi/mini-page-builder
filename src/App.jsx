@@ -1,10 +1,8 @@
-import './App.css'
+import './App.css';
+import PageBuilder from './pages/PageBuilder';
 
 function App() {
-  return (
-    <>
-    </>
-  )
+  return <PageBuilder />;
 }
 
-export default App
+export default App;
