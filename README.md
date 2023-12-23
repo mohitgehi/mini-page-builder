@@ -1,8 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Mini Page Builder
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is built using React, Vite, Tailwind CSS, and Zustand for state management.
+
+## Installation
+
+To install the project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/mohitgehi/mini-page-builder.git`
+
+2. Navigate to the project directory: `cd mini-page-builder`
+
+3. Install the dependencies: `npm install`
+
+## Running the Project
+
+To run the project, use the command: `npm run dev`
+
+## Built With
+
+- React
+- Tailwind CSS
+- Zustand
+- Vite
+  
