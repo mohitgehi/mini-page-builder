@@ -3,7 +3,7 @@
 
 ## Description
 
-This project is built using React, Vite, Tailwind CSS, and Zustand for state management.
+This project is built using React, Vite, Tailwind CSS, and Zustand for  state management.
 
 ## Installation
 
@@ -14,6 +14,8 @@ To install the project, follow these steps:
 2. Navigate to the project directory: `cd mini-page-builder`
 
 3. Install the dependencies: `npm install`
+
+4. Server will be running on http://localhost:5173/
 
 ## Running the Project
 
