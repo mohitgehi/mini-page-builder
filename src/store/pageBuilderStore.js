@@ -9,11 +9,10 @@ const getInitialLoggedIn = () => {
 };
 
 export const usePageBuilderStore = create(set => ({
-  layout: getInitialLoggedIn(),
+  layout: [],
   addElement: element =>
     set(state => {
       const newState = [...state.layout, { id: uuidv4(), ...element }];
-      localStorage.setItem(LOCAL_LAYOUT_KEY, JSON.stringify(newState));
       return {
         layout: newState,
       };
@@ -21,7 +20,6 @@ export const usePageBuilderStore = create(set => ({
   deleteElement: id =>
     set(state => {
       const newState = state.layout.filter(element => element.id !== id);
-      localStorage.setItem(LOCAL_LAYOUT_KEY, JSON.stringify(newState));
       return {
         layout: newState,
       };
@@ -37,7 +35,6 @@ export const usePageBuilderStore = create(set => ({
         }
         return element;
       });
-      localStorage.setItem(LOCAL_LAYOUT_KEY, JSON.stringify(updatedPage));
       return {
         layout: updatedPage,
       };
